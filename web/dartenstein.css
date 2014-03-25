@@ -1,0 +1,48 @@
+#minimap, #minimapobjects {
+   position: absolute;
+}
+
+#overlay {
+   position: absolute;
+   width: 310px;
+   height: 190px;
+   padding: 5px;
+   color: white;
+   font-family: lucida console, courier new;
+   font-size: 10px;
+   z-index: 100000001;
+}
+
+#floor {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background-color: rgb(128, 128, 128);
+   z-index: -10000000;
+}
+
+#ceiling {
+   position : absolute;
+   width : 320px;
+   height : 100px;
+   z-index : -10000000;
+    
+   /* www.dartlang.org homepage gradient */
+   background: #0084c5; /* Old browsers */
+   background: -moz-linear-gradient(45deg,  #0084c5 0%, #0489c3 36%, #30cabf 66%, #2fbcb2 100%); /* FF3.6+ */
+   background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#0084c5), color-stop(36%,#0489c3), color-stop(66%,#30cabf), color-stop(100%,#2fbcb2)); /* Chrome,Safari4+ */
+   background: -webkit-linear-gradient(45deg,  #0084c5 0%,#0489c3 36%,#30cabf 66%,#2fbcb2 100%); /* Chrome10+,Safari5.1+ */
+   background: -o-linear-gradient(45deg,  #0084c5 0%,#0489c3 36%,#30cabf 66%,#2fbcb2 100%); /* Opera 11.10+ */
+   background: -ms-linear-gradient(45deg,  #0084c5 0%,#0489c3 36%,#30cabf 66%,#2fbcb2 100%); /* IE10+ */
+   background: linear-gradient(45deg,  #0084c5 0%,#0489c3 36%,#30cabf 66%,#2fbcb2 100%); /* W3C */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0084c5', endColorstr='#2fbcb2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+
+#screen {
+   position: relative;
+   width: 320px;
+   height: 200px;
+   border: 1px solid black;
+   overflow: hidden;
+}

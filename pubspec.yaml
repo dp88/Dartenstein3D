@@ -1,0 +1,6 @@
+name: Dartenstein
+author: David Palmer
+description: A sample web application
+dependencies:
+  browser: any
+  game_loop: any
